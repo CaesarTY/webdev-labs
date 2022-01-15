@@ -48,6 +48,18 @@ section img, section video{
 
 
 /* Tablet Media Query */
+@media only screen and (min-width: 1000px) {
+    main{
+        flex-wrap: wrap;
+    }
+    section {
+        width: calc(25% - 20px);
+    }
+
+}
+
+
+/* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
     main{
         flex-wrap: wrap;
@@ -60,7 +72,11 @@ section img, section video{
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
+    main{
+        flex-wrap: wrap;
+    }
     section {
         width: 100%;
     }
 }
+ 
